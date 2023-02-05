@@ -1,0 +1,190 @@
+:root{
+    --primary-text-color: #434455;
+    --title-text-color: #2E2F42;
+    --white-text-color: #FFFFFF;
+    --button-hover-color: #404BBF;
+    --description-in-footer-color: #E7E9FC;
+    --first-word-logo-color: #4D5AE5;
+    --background-color-fourth-section: #F4F4FD;
+}
+a {
+    text-decoration: none;
+}
+body{
+    background-color: var(--white-text-color);
+    color: var(--primary-text-color);
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.02em;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.list{
+    list-style-type: none;
+}
+
+
+/* Navigation */
+
+.logo {
+    text-transform: uppercase;
+    font-family: Raleway,sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.3;
+    color: var(--first-word-logo-color);
+    letter-spacing: 0.03em;
+}
+
+.heder-logo {
+    color: var(--title-text-color);
+}
+
+.site-navigation .link {
+    font-weight: 500;
+    color: var(--title-text-color);
+}
+.site-navigation .link:hover,
+.site-navigation .link:focus{
+    color: var(--button-hover-color);
+}
+
+.site-info a {
+    color: var(--primary-text-color);
+    font-style: normal;
+}
+.site-info .email:hover,
+.site-info .email:focus,
+.site-info .phone:hover,
+.site-info .phone:focus {
+    color: var(--button-hover-color);
+}
+
+/* Main */
+
+
+.button-order {
+    color: var(--white-text-color);
+    background-color: var(--first-word-logo-color);
+    font-family: inherit;
+    letter-spacing: 0.04em;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.button-order:hover,
+.button-order:focus{
+    background-color: var(--button-hover-color);
+}
+
+/* Section 1 */
+
+.hero {
+    background-color: var(--title-text-color);
+}
+.hero-tittle {
+    font-size: 56px;
+    line-height: 1.07;
+    font-weight: 700;
+    color: var(--white-text-color);
+    background-color: var(--title-text-color);
+}
+
+/* Second section */
+.unvisible-tittle {
+    position: absolute;
+    white-space: nowrap;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+    width: 1px;
+
+}
+.virtues-list .title {
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 500;
+    color: var(--title-text-color);
+}
+
+
+/* Third section */
+.section-tittle {
+    font-size: 36px;
+    line-height: 1.11;
+    font-weight: 700;
+    text-transform: capitalize;
+    text-align: center;
+    color: var(--title-text-color);
+}
+/* Fourth section */
+.section-fourth {
+    background-color: var(--background-color-fourth-section);
+}
+
+.our-teacher .card-teacher {
+    background-color: var(--white-text-color);
+}
+.our-teacher .title{
+    line-height: 1.2;
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+    color: var(--title-text-color);
+}
+.our-teacher .description-teacher{
+    text-align: center;
+}
+
+/* Footer */
+footer{
+    background-color: var(--title-text-color);
+}
+.description {
+    color: var(--description-in-footer-color);
+}
+.footer-logo {
+    text-transform: uppercase;
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: var(--background-color-fourth-section);
+    
+}
+/* ========PORTFOLIO======== */
+/* Butoon */
+
+.button-filter {
+    color: var(--first-word-logo-color);
+    background-color: var(--background-color-fourth-section);
+    list-style-type: none;
+    cursor: pointer;
+    font-family: inherit;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    font-weight: 500;
+}
+.button-filter:hover,
+.button-filter:focus{
+    color: var(--white-text-color);
+    background-color: var(--button-hover-color);
+}
+/* Main section */
+
+
+.posts h3 {
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 500;color: var(--title-text-color);
+
+}
+.posts p{
+    color: var(--primary-text-color);
+}
